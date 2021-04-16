@@ -33,7 +33,7 @@ func main() {
 	// }
 	// we can use ";" to indicate end of a statement.
 	
-	if x := 42; x == 422 { 
+	if x := 42; x == 42 { 
 		fmt.Println("001")
 	}
 	//fmt.Println(x) // This will give us an error

@@ -6,7 +6,7 @@ import (
  const (
 	 a = iota // a is initilaized to 0 
 	 b 		 // b is now 1
-	 c 		 // cis not 2
+	 c 		 // c is now 2
  )
  const (
 	 d = iota // d is initalized to be 0
@@ -17,7 +17,7 @@ import (
 const (
 	a = iota // a is initilaized to 0 
 	b 		 // b is now 1
-	c 		 // cis not 2
+	c 		 // c is now 2
 	d = iota // d is 3
 	e		  // e is 4
 	f		  // f is 5

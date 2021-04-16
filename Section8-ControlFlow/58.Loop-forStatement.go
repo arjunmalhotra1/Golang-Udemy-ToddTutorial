@@ -14,7 +14,7 @@ func main() {
 	// fmt.Println("done.")
 
 	x := 1
-	for {
+	for { //infinite loop
 		if x > 9 {
 			break
 
