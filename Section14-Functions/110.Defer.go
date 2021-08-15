@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 )
+
 // Todd's explanation
 // Defer will defer the execution of the fuction until whereever
 // it's being called comes to an end.
 // Official doc
 // A defer statement invokes a function whose execution is deferred
-// to the moment the surrounding function returns either becasue the surrounding
+// to the moment the surrounding function returns either because the surrounding
 // function executed a return statement,
 // reached the end of it's fucntion body, or
 // because the corresponding goroutine is panicking.
@@ -22,9 +23,9 @@ func main() {
 
 }
 
-func foo(){
+func foo() {
 	fmt.Println("foo")
 }
-func bar(){
+func bar() {
 	fmt.Println("bar")
 }

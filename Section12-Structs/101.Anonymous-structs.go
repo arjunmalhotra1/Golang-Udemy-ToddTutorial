@@ -8,16 +8,17 @@ import (
 // Do not have extraneous types where we don't need them
 
 func main() {
-	p1 := struct{
-		first string
+	p1 := struct {
+		first  string
 		second string
-		age int
+		age    int
 	}{
-		first: "James",
+		first:  "James",
 		second: "Bond",
-		age: 32,
+		age:    32,
 	}
 	fmt.Println(p1)
 }
-// WE create VALUES of a certian TYPE that rae stored in VARIABLES.
+
+// WE create VALUES of a certian TYPE that are stored in VARIABLES.
 // and those VARIABLES have IDENTIFIERS.

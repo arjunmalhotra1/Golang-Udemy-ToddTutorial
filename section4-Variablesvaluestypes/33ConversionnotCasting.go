@@ -3,8 +3,10 @@ package main
 import (
 	"fmt"
 )
+
 // creating our won type
 type hotdog int
+
 var b hotdog
 
 var a int
@@ -21,7 +23,7 @@ func main() {
 	// a and b are of different type
 	// a is of type int nad b is of type hotdog
 	// We cant take something of type hotdog and assign it to an int
-	
+
 	// THIS WORKED INT HE PLAYGROUND BUT NOT WHEN  I TRIED TO RUN IT USING THE CLI.
 	// But we can use type conversion.
 	// Thre is no CASTIING GO.

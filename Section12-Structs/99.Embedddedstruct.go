@@ -4,34 +4,34 @@ import (
 	"fmt"
 )
 
-// Here we will see how we can take one type and embedd it into another type.
+// Here we will see how we can take one type and embed it into another type.
 type person struct {
-	first string
+	first    string
 	lastname string
-	age int
+	age      int
 }
 
-type secretAgent struct{
+type secretAgent struct {
 	person
 	first string // To demoistrate name colisson.
 	// Both secretAgent and person have "fisrt"
 	ltk bool
-
 }
+
 func main() {
-	sa1 := secretAgent {
-		person : person{
-			first: "James",
+	sa1 := secretAgent{
+		person: person{
+			first:    "James",
 			lastname: "Bond",
-			age: 32,
+			age:      32,
 		},
 		first: "Something collison",
-		ltk : true,
+		ltk:   true,
 	}
 	p2 := person{
-		first: "Miss",
+		first:    "Miss",
 		lastname: "Moneypenny",
-		age: 27,
+		age:      27,
 	}
 
 	fmt.Println(sa1)
